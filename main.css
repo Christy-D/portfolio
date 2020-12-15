@@ -1,0 +1,83 @@
+body{
+  background-color: #f7b2ef;
+}
+#navbar{
+  display: flex;
+  justify-content: flex-start;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  background: #f413da;
+  z-index: 10;
+}
+#navlist{
+  display: flex;
+  margin-left: 0;
+}
+#navlist li{
+  display: block;
+  font-size: 1.5em;
+  padding: 0 .2em 0 .2em;
+}
+#navlist li:hover{
+  background-color: #f7b2ef;
+  height: 100%;
+}
+.welcome-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 60vh;
+  margin-top: 1.5em;
+  background-image: linear-gradient(to right, #f7b2ef, #f28ee5, #f7b2ef); 
+  }
+.projects-section {
+  text-align: center;
+  padding: .5em;
+  background: rgb(224, 69, 206) ;
+}
+.project-grid{
+  display: flex;
+}
+.project-image{
+  width: 85%;
+  object-fit: contain;
+  padding: 5px 10px 5px 10px;
+}
+
+#contact-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 30vh;
+  padding: 0 0 1.5rem 0;
+  margin-top: 4em;
+ }
+#contact-links {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  flex-wrap: wrap;
+}
+.submit-form{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 1em;
+}
+.submit-button{
+  margin-top: 1em;
+}
+@media (min-width: 1200px) {
+  .welcome-section{
+    width: 90vw;
+  }
+  }
