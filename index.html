@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+ <head>
+  <title>My Portfolio</title>
+  <script src="https://kit.fontawesome.com/5d00ffc1fa.js" crossorigin="anonymous"> 
+</script>
+<!-- Start Nav Bar -->
+<nav id="navbar">
+  <ul id="navlist">
+    <li><a href="#welcome-section">About</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact-section">Contact</a></li>
+  </ul>
+</nav>
+<!-- End Nav -->
+  <link rel="stylesheet" href="style.css">
+ </head>
+ <body>
+   <!-- Start About-->
+​<section id="welcome-section" class="welcome-section">
+  <h1 class="welcome-section">Hello I'm Christy</h1>
+  <p class="welcome-section">Thank you for visiting my page! I am a future web developer and would love for you to check out my work!</p>
+</section>
+
+<!-- End About -->
+<!-- Start Work -->
+<section id="projects"
+         class="projects-section">
+  <h2 class="projects-section">Here are a few of my projects</h2>
+  <p class="projects-section">Feel free to click the links</p>
+  <div class="project-grid">
+    
+    <a href="https://codepen.io/christy-d/full/oNxqrvr"
+       target="_blank"
+          class="project-tile">
+      <img src="https://i.ibb.co/0MKFr83/Tribute.png" 
+           alt="Tribute" 
+           class="project-image">
+      <p class="project-title">Tribute Page</p>
+    </a>
+   <a href="https://codepen.io/christy-d/full/yLJZQBL"
+       target="_blank"
+          class="project-tile">
+      <img src="https://i.ibb.co/r2LxR2W/Survey.png" 
+           alt="Survey" 
+           class="project-image">
+      <p class="project-title">Survey Form</p>
+    </a>
+<a href="https://codepen.io/christy-d/full/JjKQajR"
+       target="_blank"
+          class="project-tile">
+      <img src="https://i.ibb.co/F4TvMG6/Product.png" 
+           alt="Product Landing" 
+           class="project-image">
+      <p class="project-title">Product Landing</p>
+    </a>
+  </div>
+</section>
+<!-- End Work -->
+<!-- Start Contact -->
+<section id="contact-section" class="contact-section">
+  <div id="contact-section-header">
+  <h2 class="contact-section">Contact Info</h2>
+  <p class="contact-section">Contact me with any questions!</p>
+  <form method="POST"
+  action="https://api.slapform.com/ctdarris@gmail.com" class="submit-form" name="form1">
+  <label for="emailbox" >Email:</label>
+  <input type="email" name="email" class="submit-input" required><br>
+  <label for="textbox">Message:</label>
+  <textarea type="text" name="message" class="submit-input" required></textarea>
+  <button type="submit" class="submit-button">Submit</button>
+</form>
+  </div>
+  <div id="contact-links">
+    <a
+       href="https://github.com/Christy-D"
+       target="_blank"
+       class="contact-details">
+      <i class="fab fa-github"></i>GitHub      
+    </a>
+    <a
+       href="https://codepen.io/christy-d"
+       target="_blank"
+       class="contact-details">
+      <i class="fab fa-codepen"></i>CodePen      
+    </a>
+    <a
+       href="https://www.freecodecamp.org/christy_d"
+       target="_blank"
+       class="contact-details"
+       id="profile-link"><i class="fab fa-free-code-camp"></i>FreeCodeCamp
+      
+    </a>
+  </div>
+</section>
+<!-- End Contact -->
+ </body>
+</html>
